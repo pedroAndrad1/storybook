@@ -25,4 +25,6 @@ dist-ssr
 
 *storybook.log
 
+/%SystemDrive%/*
+
 /storybook-static
