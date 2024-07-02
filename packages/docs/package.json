@@ -13,6 +13,11 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@pedroandrad1/eslint-config": "*",
+    "@pedroandrad1/react": "*",
+    "@pedroandrad1/tokens": "*",
+    "@pedroandrad1/ts-config": "*",
+    "polished": "^4.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
