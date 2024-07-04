@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@pedroandrad1/react'
+import { Box, BoxProps, Text } from '@pedroandrad1/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -7,7 +7,7 @@ export default {
   args: {
     children: (
       <>
-        <p style={{ color: '#FFF' }}>Conteúdo</p>
+        <Text style={{ color: '#FFF' }}>Conteúdo</Text>
       </>
     ),
   },
