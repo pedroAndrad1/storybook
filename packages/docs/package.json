@@ -17,10 +17,11 @@
     "@pedroandrad1/react": "*",
     "@pedroandrad1/tokens": "*",
     "@pedroandrad1/ts-config": "*",
+    "@storybook/addon-a11y": "^8.1.11",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "phosphor-react": "^1.4.1"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.5.0",
