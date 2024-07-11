@@ -1,5 +1,11 @@
 # @pedroandrad1/react
 
+## 2.1.0
+
+### Minor Changes
+
+- tooltip
+
 ## 2.0.2
 
 ### Patch Changes
