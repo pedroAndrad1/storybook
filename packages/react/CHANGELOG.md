@@ -1,5 +1,11 @@
 # @pedroandrad1/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Toast
+
 ## 2.1.0
 
 ### Minor Changes
