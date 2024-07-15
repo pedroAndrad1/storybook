@@ -1,5 +1,11 @@
 # @pedroandrad1/react
 
+## 2.2.3
+
+### Patch Changes
+
+- Nova cor para mensagens de erro
+
 ## 2.2.2
 
 ### Patch Changes
