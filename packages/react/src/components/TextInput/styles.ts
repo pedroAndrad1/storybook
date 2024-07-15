@@ -21,9 +21,11 @@ export const TextInputContainer = styled('div', {
     size: {
       sm: {
         padding: '$2 $3',
+        height: 38,
       },
       md: {
         padding: '$3 $4',
+        height: 46,
       },
     },
   },

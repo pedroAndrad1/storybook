@@ -1,5 +1,11 @@
 # @pedroandrad1/react
 
+## 2.2.2
+
+### Patch Changes
+
+- Ajuste tamanho de variantes de input para se adequar ao Button
+
 ## 2.2.1
 
 ### Patch Changes
