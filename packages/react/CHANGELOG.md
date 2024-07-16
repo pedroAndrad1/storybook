@@ -1,5 +1,11 @@
 # @pedroandrad1/react
 
+## 2.2.4
+
+### Patch Changes
+
+- Multistep pode receber styles agora
+
 ## 2.2.3
 
 ### Patch Changes

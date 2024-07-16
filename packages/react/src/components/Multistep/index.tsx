@@ -1,13 +1,15 @@
+import { ComponentProps } from 'react'
 import { Label, MultiStepContainer, Step, Steps } from './styles'
 
-export interface MultiStepProps {
+export interface MultiStepProps
+  extends ComponentProps<typeof MultiStepContainer> {
   size: number
   currentStep?: number
 }
 
-export function MultiStep({ size, currentStep = 1 }: MultiStepProps) {
+export function MultiStep({ size, currentStep = 1, ...props }: MultiStepProps) {
   return (
-    <MultiStepContainer>
+    <MultiStepContainer {...props}>
       <Label>
         Passo {currentStep} de {size}
       </Label>
