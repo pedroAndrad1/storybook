@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, Toast, ToastProps } from '@pedroandrad1/react'
+import { Button, Toast, ToastProps, ToastProvider } from '@pedroandrad1/react'
 import { useState } from 'react'
 
 export default {
@@ -14,10 +14,10 @@ export default {
     (Story, context) => {
       const [open, setOpen] = useState(false)
       return (
-        <>
+        <ToastProvider>
           <Button onClick={() => setOpen(!open)}>Clique aqui</Button>
           {Story({ args: { open, onOpenChange: setOpen, ...context.args } })}
-        </>
+        </ToastProvider>
       )
     },
   ],

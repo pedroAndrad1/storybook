@@ -1,4 +1,4 @@
-import { Provider, Close, Title, Description } from '@radix-ui/react-toast'
+import { Close, Title, Description } from '@radix-ui/react-toast'
 import { ComponentProps } from 'react'
 import {
   CloseButton,
@@ -8,28 +8,19 @@ import {
   StyledViewport,
 } from './styles'
 
-export interface ToastProps
-  extends ComponentProps<typeof Provider>,
-    ComponentProps<typeof StyledRoot> {
+export interface ToastProps extends ComponentProps<typeof StyledRoot> {
   title: string
   description: string
 }
 
 export const Toast = ({
-  label,
-  swipeDirection,
-  swipeThreshold,
   title,
   description,
   duration,
   ...rootProps
 }: ToastProps) => {
   return (
-    <Provider
-      label={label}
-      swipeDirection={swipeDirection}
-      swipeThreshold={swipeThreshold}
-    >
+    <>
       <StyledRoot {...rootProps} duration={duration}>
         <Title asChild>
           <StyledTitle size={'xl'}>{title}</StyledTitle>
@@ -42,6 +33,6 @@ export const Toast = ({
         </Close>
       </StyledRoot>
       <StyledViewport />
-    </Provider>
+    </>
   )
 }

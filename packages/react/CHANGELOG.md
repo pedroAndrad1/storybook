@@ -1,5 +1,11 @@
 # @pedroandrad1/react
 
+## 2.2.5
+
+### Patch Changes
+
+- Separados Toast Component e Toast Provider
+
 ## 2.2.4
 
 ### Patch Changes
