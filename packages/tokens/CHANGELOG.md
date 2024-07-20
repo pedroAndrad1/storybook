@@ -1,5 +1,11 @@
 # @pedroandrad1/tokens
 
+## 2.1.3
+
+### Patch Changes
+
+- Ajuste no css do button
+
 ## 2.1.2
 
 ### Patch Changes
