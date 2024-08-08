@@ -1,5 +1,11 @@
 # @pedroandrad1/react
 
+## 2.2.8
+
+### Patch Changes
+
+- Ajuste no reset css de button
+
 ## 2.2.7
 
 ### Patch Changes

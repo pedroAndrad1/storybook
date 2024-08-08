@@ -2,7 +2,15 @@ import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Button = styled('button', {
+  border: 'none',
+  margin: 0,
+  width: 'auto',
+  overflow: 'visible',
   background: 'transparent',
+  color: 'inherit',
+  font: 'inherit',
+  lineHeight: 'normal',
+
   borderRadius: '$sm',
   fontSize: '$sm',
   fontWeight: '$medium',
