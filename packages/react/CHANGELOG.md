@@ -1,5 +1,11 @@
 # @pedroandrad1/react
 
+## 2.2.7
+
+### Patch Changes
+
+- Ajuste nas variantes e button
+
 ## 2.2.6
 
 ### Patch Changes

@@ -2,7 +2,7 @@ import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Button = styled('button', {
-  all: 'unset',
+  background: 'transparent',
   borderRadius: '$sm',
   fontSize: '$sm',
   fontWeight: '$medium',
