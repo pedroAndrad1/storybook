@@ -1,5 +1,11 @@
 # @pedroandrad1/react
 
+## 2.3.0
+
+### Minor Changes
+
+- Divido tooltip e tooltip provider
+
 ## 2.2.8
 
 ### Patch Changes
